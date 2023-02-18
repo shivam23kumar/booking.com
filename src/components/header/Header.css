@@ -11,7 +11,9 @@
     max-width:1024px;
     margin:20px 0px 100px 0px;
 }
-
+.headerContainer.listnode{
+    margin:20px 0px 0px 0px;
+}
 .headerList{
     display:flex;
     gap:40px;
@@ -114,4 +116,8 @@
     color:#0071c2;
     cursor:pointer;
     background-color:white;
+}
+
+.optionCounterButton:disabled{
+    cursor:not-allowed;
 }

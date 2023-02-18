@@ -1,6 +1,6 @@
 import "./Navbar.css";
 
-const Home= ()=>{
+const Navbar= ()=>{
     return(
         <div className="navbar">
             <div className="navContainer">
@@ -17,4 +17,4 @@ const Home= ()=>{
     )
 }
 
-export default Home
+export default Navbar;
