@@ -17,6 +17,17 @@
 
 .logo{
     font-weight:1000;
+    font-size:30px;
+}
+
+.navList{
+    margin-left:500px;
+    background-color:#003580;
+    color:white;
+    border:none;
+    cursor:pointer;
+    font-weight:650;
+    font-size:15px;
 }
 
 .navButton{

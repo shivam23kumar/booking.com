@@ -1,0 +1,25 @@
+.indianfeature{
+    width: 100%;
+    max-width: 1024px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+  }
+
+  .indianitem{
+    position:relative;
+    color:white;
+  }
+
+  .indianimg{
+    width:100%;
+    object-fit:cover;
+    border-radius:10px;
+  }
+
+  .indianname{
+    position:absolute;
+    top:20px;
+    left:20px;
+    z-index:1;
+  }
