@@ -5,6 +5,7 @@ import PropertyList from "../../components/propertyList/PropertyList";
 import MoreProp from "../../components/moreProp/MoreProp";
 import IndianFeature from "../../components/indianFeature/IndianFeature";
 import MailList from "../../components/mailList/MailList";
+import Footer from "../../components/footer/Footer";
 import "./home.css";
 
 const Home=()=>{
@@ -21,6 +22,7 @@ const Home=()=>{
                 <h1 className="homeTitle1">Explore India</h1>
                 <IndianFeature/>
                 <MailList/>
+                <Footer/>
             </div>
         </div>
     )
